@@ -16,6 +16,7 @@
 }
 html {
 	height: 100%;
+	overflow: hidden;
 }
 body {
 	margin: 0;
@@ -67,7 +68,10 @@ article {
 	padding: 20px 20px 50px 20px;
 	min-height: 100%;
 	text-align: justify;
-	margin-top: 2000px;
+	margin-top: 87px;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
 }
 .pic_left {
 	width: 50%;
@@ -93,7 +97,11 @@ aside {
 	left: 0;
 	padding: 10px;
 	background-color: grey;
-	width: 13%;
+	width: 15%;
 	color: white;
 	font-family: 'font3';
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+     margin-top: -10px;
 }

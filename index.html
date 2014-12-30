@@ -17,7 +17,7 @@
 			<h2>Sommaire</h2>
 			<br />
 			<ol>
-				<li>Généralité sur les choses</li>
+				<li>Généralités sur les choses</li>
 				<li>Chose n°1</li>
 				<li>Chose n°2</li>
 				<li>Chose n°3</li>
@@ -60,11 +60,15 @@
 		</article>
 		<script src="assets/jquery-2.1.3.min.js"></script>
 		<script>
+			$("document").ready(function(){
+				$("article").animate({marginTop: 2000}, 0);
+			});
 			$("#enter").click(function() {
 				$("#enter").hide();
 				$("article").animate({
 					marginTop : 87
 				}, 1000);
+				$("html").css("overflow", "scroll");
 			});
 		</script>
 	</body>
