@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>chose</title>
+		<link rel="stylesheet" href="assets/style.css" type="text/css" />
+	</head>
+	<!-- Corps de la page (visible) -->
+	<body>
+		<header>
+			CHOSES.ORG
+		</header>
+		<button id="enter">
+			Entre dans la chose
+		</button>
+		<aside>
+			<h2>Sommaire</h2>
+			<br />
+			<ol>
+				<li>Généralité sur les choses</li>
+				<li>Chose n°1</li>
+				<li>Chose n°2</li>
+				<li>Chose n°3</li>
+			</ol>
+		</aside>
+		<article>
+			<h1>Tout sur les choses</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor, est eu congue gravida, tellus augue ultricies turpis, non euismod felis ex nec lorem. In quis aliquam erat, a porta risus. Sed efficitur mi at leo suscipit, cursus eleifend neque cursus. Nulla elementum, sem non vestibulum iaculis, nisi sem tristique nibh, vitae iaculis erat tortor nec erat. Aliquam rhoncus, quam ac aliquam faucibus, leo ipsum facilisis sapien, eget lacinia massa purus in metus. Maecenas imperdiet, eros at pellentesque pretium, ante nisl sodales mi, ac faucibus nunc nisl nec est. Ut sed metus nec lacus aliquam gravida ut in mi. Integer ac magna ultricies, ullamcorper justo non, rhoncus mi. Phasellus cursus, neque eu semper tincidunt, risus metus eleifend tortor, id laoreet orci justo vel elit. Proin vel iaculis dui. Fusce commodo consectetur velit, ut varius nibh placerat id. Morbi ultricies dui eget mattis aliquet. Praesent pellentesque odio non diam ullamcorper hendrerit. Proin venenatis orci a nisi vulputate viverra. Duis vel tincidunt lacus.
+				<br />
+				<div style="text-align: center;">
+					<span id="quote">"Les choses sont des trucs."</span>
+				</div>
+
+				<br />
+
+				risus, efficitur et congue at, ullamcorper venenatis enim. Vestibulum sapien tellus, maximus iaculis mattis varius, dignissim et nisl. Integer vitae accumsan est, sit amet pulvinar arcu. Vestibulum vel arcu sed est vehicula tristique. Pellentesque vulputate efficitur mi quis convallis. Praesent efficitur massa arcu, nec volutpat metus efficitur vitae. Quisque quis justo tellus. Mauris vehicula, lacus id faucibus molestie, risus ipsum fermentum libero, sit amet vehicula ante leo sed odio. Fusce molestie tempus mollis. Nulla a mattis quam, non bibendum risus. Praesent maximus gravida leo, at volutpat sem auctor in. Mauris quis luctus velit. Fusce iaculis nulla id tincidunt rutrum. Aliquam luctus tellus elit, ac lobortis dui porta vel.
+				<br />
+				<br />
+				<img class="pic_left" src="assets/pics/truc.jpg" />
+				Mauris interdum odio non lorem lacinia, tincidunt rutrum velit ullamcorper. Sed pulvinar et nisi et facilisis. Sed ut diam tempus, iaculis sapien eget, porta nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Nullam quis placerat elit, cursus pretium libero. Pellentesque ac aliquam elit. Ut ante lorem, condimentum at turpis facilisis, tempus vehicula metus. Duis massa nisi, ornare ac porta quis, feugiat eget leo. Aliquam id arcu et orci egestas porttitor eget id est. Integer eu ullamcorper leo. Phasellus dui nisi, dictum et dignissim nec, vestibulum nec lorem.
+			</p>
+			<div style="clear: both;">
+				<br />
+			</div>
+			<table>
+				<tr>
+					<th>Chose n°</th><th>Nom</th><th>Age</th><th>Taille</th>
+				</tr>
+				<tr>
+					<th>1</th><td>Bloups</td><td>18</td><td>25</td>
+				</tr>
+				<tr>
+					<th>2</th><td>Blaps</td><td>13</td><td>17</td>
+				</tr>
+				<tr>
+					<th>3</th><td>Blips</td><td>32</td><td>31</td>
+				</tr>
+			</table>
+		</article>
+		<script src="assets/jquery-2.1.3.min.js"></script>
+		<script>
+			$("#enter").click(function() {
+				$("#enter").hide();
+				$("article").animate({
+					marginTop : 87
+				}, 1000);
+			});
+		</script>
+	</body>
+</html>
